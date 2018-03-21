@@ -1,11 +1,12 @@
 <?php
-	class Container
+
+class Container
+{
+	public function make()
 	{
-
-		private $container;
-
-		public function make(){}
-		public function app(){}
+		var_dump($_SERVER);
 	}
+}
+
 
 ?>
